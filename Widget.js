@@ -90,5 +90,5 @@ window.onload = function() {
     fetchOverallRating(placeID, apiKey);
     fetchReviewsWithProfilePictures(placeID, apiKey);
     console.log(placeID)
-    Collapsible()
+    //Collapsible()
 }
