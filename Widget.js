@@ -1,4 +1,4 @@
-import './widget.css';
+
 
 var rating
 var reviewdisplay = []
