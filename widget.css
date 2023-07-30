@@ -1,0 +1,25 @@
+.collapsible .content{
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 6px;
+    background-color: #626262;
+    position: absolute;
+    bottom: 20px;
+    
+    height: 100%;
+    overflow: auto
+  
+  }
+  .collapsible .header {
+    position: absolute;
+    background-color: #626262;
+    padding: 6px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 20%;
+    bottom: 0px;
+  }
+  img{
+    width: 40px;
+    height: 40px;
+  }
