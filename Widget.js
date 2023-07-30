@@ -54,32 +54,7 @@ function fetchReviewsWithProfilePictures(placeID, apiKey) {
     });
 }
 
-function Collapsible() {
-    const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
-  return (
-    <div className="collapsible">
-        <div className="header" {...getToggleProps()}>
-            {isExpanded ? 'X' : "Rated: " + rating + " Stars read reviews"}
-        </div>
-        <div {...getCollapseProps()}>
-            <div className="content" >
-                Reviews <br/><br/>
-                {reviewdisplay.map((display) => ( 
-                <div> 
-                  <br/>
-                  <img src = {display.profile_photo_url}></img> 
-                  {display.author_name} <br/>
-                  {display.rating}{" Stars "} <br/>
-                  {display.text} 
-                  
-                </div>
-                
-                ))}
-            </div>
-        </div>
-    </div>
-    );
-  }
+
 
 window.onload = function() {
     var urlParams = new URLSearchParams(window.location.search);
